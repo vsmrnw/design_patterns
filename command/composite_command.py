@@ -99,6 +99,7 @@ class MoneyTransferCommand(CompositeBankAccountCommand):
                 cmd.success = False
         self.success = ok
 
+
 class TestSuite(unittest.TestCase):
     # def test_composite_deposit(self):
     #     ba = BankAccount()
